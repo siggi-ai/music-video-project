@@ -1,25 +1,22 @@
 <template>
-  <p>my new website</p>
+  <Intro />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Intro from './components/Intro.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Intro
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+body {
+  background-image: url("../public/images/spirale.jpg");
+  width: 100%;
+  height: 100%;
 }
 </style>
