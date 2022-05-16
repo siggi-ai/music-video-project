@@ -1,6 +1,6 @@
 <template>
     <div>
-       <img src="../../public/images/spirale.jpg" alt="Spirale" class="spirale">
+       <img src="../../public/images/sp2.jpg" alt="Spirale" class="spirale">
     </div>
 </template>
 <script>
@@ -13,7 +13,11 @@ body {
 }
 .spirale {
     rotate: 60dg;
-    animation: rotate 2s linear infinite;
+    animation: rotate 12s linear infinite;
+    width: 2500px;
+    height: 1800px;
+    margin-left: -500px;
+    margin-top: -500px;
 }
 @keyframes rotate {
   0% {
