@@ -1,18 +1,18 @@
 <template>
   <div>
     <Text />
-    <Intro />
+
   </div>
 </template>
 
 <script>
 import Text from "./components/Text.vue";
-import Intro from "./components/Intro.vue";
+
 
 export default {
   name: "App",
   components: { 
-    Intro,
+
     Text,
   },
 };
