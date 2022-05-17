@@ -10,7 +10,7 @@ export default {
     name: 'IntroPage',
 }
 </script>
-<style scoped>
+<style>
 .spirale {
     rotate: 60dg;
     animation: rotate 12s linear infinite;
@@ -18,6 +18,7 @@ export default {
     height: 1800px;
     margin-left: -500px;
     margin-top: -500px;
+    z-index: 1;
 }
 @keyframes rotate {
   0% {

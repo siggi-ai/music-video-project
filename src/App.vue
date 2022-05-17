@@ -11,8 +11,7 @@ import Intro from "./components/Intro.vue";
 
 export default {
   name: "App",
-  components: {
-    
+  components: { 
     Intro,
     Text,
   },
@@ -21,17 +20,8 @@ export default {
 
 <style>
 body {
-  background-image: url("../public/images/spirale.jpg");
+  background-color: rgb(16, 244, 77);
   width: 100%;
   height: 100%;
-  /* animation: rotate 12s linear infinite; */
 }
-/* @keyframes rotate {
-  0% {
-    transform: rotate(0deg)
-  }
-  100% {
-    transform: rotate(180deg)
-  }
-} */
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="../../public/images/hole.png" alt="" />
+    <img class="hole" src="../../public/images/hole.png" alt="" />
   </div>
 </template>
 <script>
@@ -9,10 +9,8 @@ export default {
 };
 </script>
 <style>
-.text {
-  margin: 0 auto;
-  font-size: 100px;
-  width: 200px;
-  margin-top: 2em;
+.hole {
+  z-index: 3;
 }
 </style>
+
