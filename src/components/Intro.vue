@@ -1,6 +1,8 @@
 <template>
     <div>
-       <img src="../../public/images/sp2.jpg" alt="Spirale" class="spirale">
+        <div>
+            <img src="../../public/images/sp2.jpg" alt="Spirale" class="spirale">
+        </div>
     </div>
 </template>
 <script>
@@ -9,8 +11,6 @@ export default {
 }
 </script>
 <style scoped>
-body {
-}
 .spirale {
     rotate: 60dg;
     animation: rotate 12s linear infinite;
