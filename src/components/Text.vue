@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img class="hole" src="../../public/images/hole.png" alt="" />
+    <img class="hole" src="../../public/images/2hole.png" alt="Hole" />
   </div>
   <div>
     <img src="../../public/images/sp2.jpg" alt="Spirale" class="spirale" />
@@ -15,16 +15,18 @@ export default {
 .hole {
   z-index: 3;
   position: absolute;
+  width: 100%;
+  height: 100%;
 }
 .spirale {
   rotate: 60dg;
   animation: rotate 12s linear infinite;
-  width: 2500px;
-  height: 1800px;
-  margin-left: -500px;
-  margin-top: -500px;
+  width: 300px;
+  height: 300px;
+  margin-left: 180px;
+  margin-top: 80px;
   z-index: 1;
-  position: absolute;
+  position: fixed;
 }
 @keyframes rotate {
   0% {
