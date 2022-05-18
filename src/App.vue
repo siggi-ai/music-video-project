@@ -7,6 +7,12 @@
       <SpinningCircle />
       <p class="text">Music-Website</p>
     </div> 
+  <div class="album-cover">
+    <a><img class="cover" src="../public/images/Albumcover/a1.jpg" alt="album-cover"></a>
+    <img class="cover" src="../public/images/Albumcover/a2.jpg" alt="album-cover">
+    <img class="cover" src="../public/images/Albumcover/a3.jpg" alt="album-cover">
+
+  </div>
   </div>
 </template>
 
@@ -37,5 +43,13 @@ body {
   width: 300px;
   margin-top: 120px;
   margin-left: 30px;
+}
+.album-cover {
+  margin-left: 220px;
+
+}
+.cover {
+  width: 200px;
+  height: 200px;
 }
 </style>
