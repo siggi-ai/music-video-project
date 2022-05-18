@@ -47,10 +47,10 @@
             <table>
                 <router-link to="/a2" class="link">
               <tr>
-                <h2>&nbsp;&nbsp;&nbsp;The Rolling Stones</h2>
+                <h2>&nbsp;The Rolling Stones</h2>
               </tr>
               <tr>
-                <h2>&nbsp;&nbsp;Some Girls</h2>
+                <h2>&nbsp;Some Girls</h2>
               </tr>
               <br />
                 </router-link>
