@@ -1,6 +1,6 @@
 <template>
   <link
-    href="https://fonts.googleapis.com/css2?family=Koulen&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Koulen&family=Macondo&display=swap" rel="stylesheet"> 
     rel="stylesheet"
   />
 
@@ -9,29 +9,45 @@
       <SpinningCircle />
       <p class="text">Music-Website</p>
     </div>
-    <div class="album-cover">
-      <a
-        ><img
-          class="cover"
-          src="../public/images/Albumcover/a1.jpg"
-          alt="album-cover"
-      /></a>
-      <img
-        class="cover"
-        src="../public/images/Albumcover/a2.jpg"
-        alt="album-cover"
-      />
-      <img
-        class="cover"
-        src="../public/images/Albumcover/a3.jpg"
-        alt="album-cover"
-      />
 
+    <div class="album-cover">
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
             <img
               src="../public/images/Albumcover/a1.jpg"
+              alt="Avatar"
+              style="width: 200px; height: 200px"
+            />
+          </div>
+          <div class="flip-card-back">
+            <h2>Edie Brickell & New Bohemians</h2>
+            <h3>Shooting Rubberbands at the Stars</h3>
+            <h2>1988</h2>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="../public/images/Albumcover/a2.jpg"
+              alt="Avatar"
+              style="width: 200px; height: 200px"
+            />
+          </div>
+          <div class="flip-card-back">
+            <h1>Edie Brickell & New Bohemians</h1>
+            <p>Shooting Rubberbands at the Stars</p>
+            <p>1988</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="../public/images/Albumcover/a3.jpg"
               alt="Avatar"
               style="width: 200px; height: 200px"
             />
@@ -119,8 +135,10 @@ body {
 }
 
 .flip-card-back {
-  background-color: #2980b9;
+  background-color: #29d0a7;
   color: white;
   transform: rotateY(180deg);
+  font-family: 'Macondo', cursive;
+  font-size: 12px;
 }
 </style>
