@@ -99,10 +99,10 @@
             <table class="card">
               <router-link to="/a4" class="link">
                 <tr>
-                  <h2>Avril Lavigne</h2>
+                  <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Avril Lavigne</h2>
                 </tr>
                 <tr>
-                  <h2>Love Sux</h2>
+                  <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Love Sux</h2>
                 </tr>
                 </router-link>
             </table>
@@ -123,10 +123,10 @@
             <table>
                 <router-link to="/a5" class="link">
               <tr>
-                <h2>&nbsp;&nbsp;Sonic Youth</h2>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sonic Youth</h2>
               </tr>
               <tr>
-                <h2>&nbsp;diRty</h2>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;diRty</h2>
               </tr>
               <br />
                 </router-link>
