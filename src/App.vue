@@ -1,178 +1,206 @@
 <template>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Koulen&family=Macondo&display=swap"
-    rel="stylesheet"
-  />
-  rel="stylesheet" />
-
   <div>
-    <div class="container">
-      <SpinningCircle />
-      <p class="text">Music-Website</p>
-    </div>
-
-    <div class="album-cover">
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img
-              src="../public/images/Albumcover/a1.jpg"
-              alt="Avatar"
-              style="width: 200px; height: 200px"
-            />
-          </div>
-          <div class="flip-card-back">
-            <table class="card">
-              <tr>
-                <h2>Edie Brickell & New Bohemians</h2>
-              </tr>
-              <tr>
-                <h2>Shooting Rubberbands at the Stars</h2>
-              </tr>
-              <tr>
-                <h2>1988</h2>
-              </tr>
-            </table>
-            <!-- <h2>Edie Brickell & New Bohemians</h2>
-            <h3>Shooting Rubberbands at the Stars</h3>
-            <h2>1988</h2> -->
-          </div>
-        </div>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap"
+      rel="stylesheet"
+    />
+    <div class="top-box">
+      <div class="top-content">
+        <strong class="date"
+          >Datum - {{ currentDate() }} &nbsp;&nbsp; Uhrzeit -
+          {{ localTime }}</strong
+        >
+        <br />
+        <br />
+        <router-link to="/" class="menu-bar">home</router-link>
+        <router-link to="/a1" class="menu-bar">a1</router-link>
+        <br />
+        <br />
+        <br />
       </div>
-
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img
-              src="../public/images/Albumcover/a2.jpg"
-              alt="Avatar"
-              style="width: 200px; height: 200px"
-            />
-          </div>
-          <div class="flip-card-back">
-            <table>
-              <tr>
-                <h2>The Rolling Stones</h2>
-              </tr>
-              <tr>
-                <h2>Some Girls</h2>
-              </tr>
-              <br />
-              <tr>
-                <h2>1978</h2>
-              </tr>
-            </table>
-          </div>
-        </div>
-      </div>
-
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img
-              src="../public/images/Albumcover/a3.jpg"
-              alt="Avatar"
-              style="width: 200px; height: 200px"
-            />
-          </div>
-          <div class="flip-card-back">
-            <table>
-              <tr>
-                <h2>50 Cent</h2>
-              </tr>
-              <tr>
-                <h2>Get Rich or Die Tryin'</h2>
-              </tr>
-              <br />
-              <tr>
-                <h2>2003</h2>
-              </tr>
-            </table>
-          </div>
-        </div>
-      </div>
+      <router-view />
     </div>
   </div>
 </template>
 
 <script>
-import SpinningCircle from "./components/SpinningCircle.vue";
-
 export default {
   name: "App",
-  components: {
-    SpinningCircle,
+
+  data: function () {
+    return {
+      localTime: " ",
+    };
+  },
+  methods: {
+    currentDate() {
+      const current = new Date();
+      const date =
+        current.getDate() +
+        "." +
+        (current.getMonth() + 1) +
+        "." +
+        current.getFullYear();
+      return date;
+    },
+    showLocaleTime: function () {
+      var time = this;
+      setInterval(function () {
+        time.localTime = new Date().toLocaleTimeString();
+      }, 1000);
+    },
+  },
+  mounted() {
+    this.showLocaleTime();
   },
 };
 </script>
 
 <style>
-body {
-  background-image: url("../public/images/black-bg-2.png");
-  width: 100%;
-  height: 100%;
+.menu-bar {
+  text-align: center;
+  margin-left: 0 auto;
+  padding: 16px;
+  font-size: 1rem;
+  margin: 0 auto;
+  width: 500px;
+  font-family: "Julius Sans One", sans-serif;
+  color: #00ff89;
+  text-decoration: none;
 }
-.container {
-  display: flex;
+.picture-link {
+  text-align: center;
+  margin-left: 0 auto;
+  padding: 16px;
+  font-size: 1rem;
+  margin: 0 auto;
+  width: 500px;
+  font-family: "Julius Sans One", sans-serif;
+  color: #00ff89;
+  text-decoration: none;
 }
 .text {
-  color: #29d0a7;
-  font-family: "Koulen", cursive;
-  font-size: 30px;
-  width: 300px;
-  margin-top: 70px;
-  margin-left: 30px;
-}
-.album-cover {
-  margin-left: 220px;
-  display: flex;
-}
-.cover {
-  width: 200px;
-  height: 200px;
-}
-.flip-card {
-  background-color: transparent;
-  width: 200px;
-  height: 200px;
-  perspective: 1000px;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front,
-.flip-card-back {
-  position: absolute;
-  width: 85%;
-  height: 85%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-.flip-card-back {
-  background-color: #29d0a7;
+  font-family: "Julius Sans One", sans-serif;
   color: white;
-  transform: rotateY(180deg);
-  font-family: "Macondo", cursive;
-  font-size: 12px;
-  padding: 15px;
 }
 
+a {
+  color: white;
+}
+
+body {
+  height: 500px;
+  margin: 0 auto;
+  padding: 40px;
+  background-size: 200% 200%;
+  animation: gradient 55s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.date {
+  font-family: "Bungee Hairline";
+  font-size: 24.7px;
+  font-weight: bolder;
+  color: gray;
+}
+
+.top-box {
+  margin: 0 auto;
+  width: 586px;
+}
+
+.top-content {
+  margin: 0 auto;
+  width: 690px;
+}
+
+.vue-logo {
+  width: auto;
+  height: 65px;
+  margin-top: 120px;
+  animation: fade 8s infinite;
+}
+@keyframes fade {
+  10% {
+    opacity: 0.7;
+  }
+  20% {
+    opacity: 1;
+  }
+}
+
+.three-logos {
+  width: auto;
+  height: 75px;
+  margin-left: 507px;
+  margin-top: 111px;
+  animation: fade 8s infinite;
+}
+
+.all-logos {
+  display: flex;
+  margin-top: -275px;
+  margin-left: 210px;
+}
+
+@media screen and (max-width: 680px) {
+  .menu-bar {
+    text-align: center;
+    margin-left: 0 auto;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 0 auto;
+    width: 500px;
+    color: #00ff89;
+  }
+
+  .self-description-text {
+    color: #00ff89;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 200px;
+  }
+  .rightbox {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 70px;
+  }
+  .three-logos {
+    width: auto;
+    height: 75px;
+    margin-left: -200px;
+    margin-top: -10px;
+  }
+  .vue-logo {
+    width: auto;
+    height: 65px;
+    margin-top: 0px;
+  }
+  .date {
+    font-size: 16px;
+  }
+  .menu-bar {
+    padding: 8px;
+    font-size: 0.6rem;
+  }
+  .picture-link {
+    display: none;
+  }
+}
 </style>
