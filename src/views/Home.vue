@@ -21,7 +21,7 @@
           </div>
           <div class="flip-card-back">
             <table class="card">
-              <router-link to="/a1">
+              <router-link to="/a1" class="link">
                 <tr>
                   <h2>Edie Brickell & New Bohemians</h2>
                 </tr>
@@ -169,7 +169,10 @@ body {
   color: white;
   transform: rotateY(180deg);
   font-family: "Macondo", cursive;
-  font-size: 12px;
+  font-size: 11px;
   padding: 15px;
+}
+.link {
+    text-decoration: none;
 }
 </style>
