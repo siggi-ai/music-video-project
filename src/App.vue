@@ -1,19 +1,18 @@
 <template>
   <div>
-    <Text />
+    <SpinningCircle />
 
   </div>
 </template>
 
 <script>
-import Text from "./components/Text.vue";
+import SpinningCircle from "./components/SpinningCircle.vue";
 
 
 export default {
   name: "App",
   components: { 
-
-    Text,
+    SpinningCircle
   },
 };
 </script>
