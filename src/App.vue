@@ -23,7 +23,7 @@ export default {
 
 <style>
 body {
-  background-color: #000;
+  background-image: url('../public/images/black-bg-2.png');
   width: 100%;
   height: 100%;
 }
@@ -31,11 +31,11 @@ body {
   display: flex;
 }
 .text {
-  color: white;
+  color: #29d0a7;
   font-family: 'Koulen', cursive;
-  font-size: 25px;
+  font-size: 30px;
   width: 300px;
-  margin-top: 130px;
+  margin-top: 120px;
   margin-left: 30px;
 }
 </style>
