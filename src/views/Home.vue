@@ -3,16 +3,13 @@
     href="https://fonts.googleapis.com/css2?family=Koulen&family=Macondo&display=swap"
     rel="stylesheet"
   />
-  rel="stylesheet" />
-
   <div>
     <div class="container">
       <SpinningCircle />
       <p class="text">Music-Website</p>
     </div>
-             
-    <div class="album-cover">
 
+    <div class="album-cover">
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
@@ -24,19 +21,19 @@
           </div>
           <div class="flip-card-back">
             <table class="card">
-              <a href="/details"><tr>
-                <h2>Edie Brickell & New Bohemians</h2>
-              </tr>
-              <tr>
-                <h2>Shooting Rubberbands at the Stars</h2>
-              </tr>
-              <tr>
-                <h2>1988</h2>
-              </tr></a>
+              <router-link to="/a1">
+                <tr>
+                  <h2>Edie Brickell & New Bohemians</h2>
+                </tr>
+                <tr>
+                  <h2>Shooting Rubberbands at the Stars</h2>
+                </tr>
+                <tr>
+                  <h2>1988</h2>
+                </tr></router-link>
             </table>
           </div>
         </div>
-
       </div>
 
       <div class="flip-card">
@@ -107,12 +104,14 @@ export default {
 
 <style>
 body {
-  background-image: url("../../public/images/black-bg-2.png");
+  background-image: url("../../public/images/sp1.jpg");
   width: 100%;
   height: 100%;
 }
 .container {
   display: flex;
+  margin-bottom: 20px;
+  margin-top: -65px;
 }
 .text {
   color: #29d0a7;
@@ -123,7 +122,7 @@ body {
   margin-left: 30px;
 }
 .album-cover {
-  margin-left: 220px;
+  margin-left: 0px;
   display: flex;
 }
 .cover {
@@ -173,5 +172,4 @@ body {
   font-size: 12px;
   padding: 15px;
 }
-
 </style>
