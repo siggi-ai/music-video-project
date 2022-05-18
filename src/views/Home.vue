@@ -123,10 +123,10 @@
             <table>
                 <router-link to="/a5" class="link">
               <tr>
-                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sonic Youth</h2>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sonic Youth</h2>
               </tr>
               <tr>
-                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;diRty</h2>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;diRty</h2>
               </tr>
               <br />
                 </router-link>
