@@ -13,7 +13,7 @@
         <br />
         <br />
         <router-link to="/" class="menu-bar">home</router-link>
-        <router-link to="/a1" class="menu-bar">a1</router-link>
+        <!-- <router-link to="/a1" class="menu-bar">a1</router-link> -->
         <br />
         <br />
         <br />

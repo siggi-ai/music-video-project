@@ -22,5 +22,6 @@ p {
     font-size: 20px;
     color: white;
     font-family: "Macondo", cursive;
+    margin-top: -20px;
 }
 </style>

@@ -47,6 +47,7 @@
           </div>
           <div class="flip-card-back">
             <table>
+                <router-link to="/a2" class="link">
               <tr>
                 <h2>The Rolling Stones</h2>
               </tr>
@@ -56,7 +57,7 @@
               <br />
               <tr>
                 <h2>1978</h2>
-              </tr>
+              </tr></router-link>
             </table>
           </div>
         </div>
@@ -73,6 +74,7 @@
           </div>
           <div class="flip-card-back">
             <table>
+                <router-link to="/a3" class="link">
               <tr>
                 <h2>50 Cent</h2>
               </tr>
@@ -82,7 +84,7 @@
               <br />
               <tr>
                 <h2>2003</h2>
-              </tr>
+              </tr></router-link>
             </table>
           </div>
         </div>
@@ -169,10 +171,11 @@ body {
   color: white;
   transform: rotateY(180deg);
   font-family: "Macondo", cursive;
-  font-size: 11px;
+  font-size: 10px;
   padding: 15px;
 }
 .link {
     text-decoration: none;
+    margin-left: 0 auto;
 }
 </style>
