@@ -10,9 +10,11 @@ export default {
 </script>
 <style>
 .hole {
- animation: rotate 12s linear infinite;
+ animation: rotate 20s linear infinite;
  height: 100px;
  width: 100px;
+ margin-left: 100px;
+ margin-top: 100px;
 }
 @keyframes rotate {
   0% {
