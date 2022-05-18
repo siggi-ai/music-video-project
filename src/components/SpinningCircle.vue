@@ -14,7 +14,7 @@ export default {
  height: 100px;
  width: 100px;
  margin-left: 100px;
- margin-top: 100px;
+ margin-top: 50px;
 }
 @keyframes rotate {
   0% {

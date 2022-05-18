@@ -10,7 +10,9 @@
       <p class="text">Music-Website</p>
     </div>
 
+
     <div class="album-cover">
+
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
@@ -27,6 +29,7 @@
           </div>
         </div>
       </div>
+
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
@@ -37,12 +40,13 @@
             />
           </div>
           <div class="flip-card-back">
-            <h1>Edie Brickell & New Bohemians</h1>
-            <p>Shooting Rubberbands at the Stars</p>
-            <p>1988</p>
+            <h2>The Rolling Stones</h2>
+            <h3>Some Girls</h3>
+            <h2>1978</h2>
           </div>
         </div>
       </div>
+
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
@@ -53,9 +57,9 @@
             />
           </div>
           <div class="flip-card-back">
-            <h1>Edie Brickell & New Bohemians</h1>
-            <p>Shooting Rubberbands at the Stars</p>
-            <p>1988</p>
+            <h2>50 Cent</h2>
+            <h3>Get Rich or Die Tryin'</h3>
+            <h2>2003</h2>
           </div>
         </div>
       </div>
@@ -90,11 +94,12 @@ body {
   font-family: "Koulen", cursive;
   font-size: 30px;
   width: 300px;
-  margin-top: 120px;
+  margin-top: 70px;
   margin-left: 30px;
 }
 .album-cover {
   margin-left: 220px;
+  display: flex;
 }
 .cover {
   width: 200px;
