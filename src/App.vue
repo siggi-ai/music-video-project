@@ -24,7 +24,7 @@
           <div class="flip-card-back">
             <table class="card">
               <tr>
-                <h1>Edie Brickell & New Bohemians</h1>
+                <h2>Edie Brickell & New Bohemians</h2>
               </tr>
               <tr>
                 <h2>Shooting Rubberbands at the Stars</h2>
@@ -52,7 +52,7 @@
           <div class="flip-card-back">
             <table>
               <tr>
-                <h1>The Rolling Stones</h1>
+                <h2>The Rolling Stones</h2>
               </tr>
               <tr>
                 <h2>Some Girls</h2>
@@ -78,7 +78,7 @@
           <div class="flip-card-back">
             <table>
               <tr>
-                <h1>50 Cent</h1>
+                <h2>50 Cent</h2>
               </tr>
               <tr>
                 <h2>Get Rich or Die Tryin'</h2>
