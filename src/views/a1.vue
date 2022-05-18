@@ -9,6 +9,8 @@
     album went 2× platinum in the United States. "What I Am" was the lead single
     and big hit from the album.</p>
   </div>
+  <iframe width="520" height="300" src="https://www.youtube.com/embed/tDl3bdE3YQA">
+</iframe>
 </template>
 <script>
 export default {
@@ -19,5 +21,6 @@ export default {
 p {
     font-size: 20px;
     color: white;
+    font-family: "Macondo", cursive;
 }
 </style>
