@@ -1,19 +1,17 @@
 <template>
+
+<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet"> 
+
   <div>
     <div class="container">
       <SpinningCircle />
-      <p class="text">A</p>
-    </div>
-    <div>
-      
-    </div>
-    
+      <p class="text">Music-Website</p>
+    </div> 
   </div>
 </template>
 
 <script>
 import SpinningCircle from "./components/SpinningCircle.vue";
-
 
 export default {
   name: "App",
@@ -34,9 +32,10 @@ body {
 }
 .text {
   color: white;
-  flex-direction: row;
+  font-family: 'Koulen', cursive;
+  font-size: 25px;
   width: 300px;
-  margin-top: 140px;
+  margin-top: 130px;
   margin-left: 30px;
 }
 </style>
