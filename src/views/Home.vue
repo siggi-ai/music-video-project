@@ -28,9 +28,7 @@
                 <tr>
                   <h2>Shooting Rubberbands at the Stars</h2>
                 </tr>
-                <tr>
-                  <h2>1988</h2>
-                </tr></router-link>
+                </router-link>
             </table>
           </div>
         </div>
@@ -49,15 +47,13 @@
             <table>
                 <router-link to="/a2" class="link">
               <tr>
-                <h2>The Rolling Stones</h2>
+                <h2>&nbsp;&nbsp;&nbsp;The Rolling Stones</h2>
               </tr>
               <tr>
-                <h2>Some Girls</h2>
+                <h2>&nbsp;&nbsp;Some Girls</h2>
               </tr>
               <br />
-              <tr>
-                <h2>1978</h2>
-              </tr></router-link>
+                </router-link>
             </table>
           </div>
         </div>
@@ -82,9 +78,7 @@
                 <h2>Get Rich or Die Tryin'</h2>
               </tr>
               <br />
-              <tr>
-                <h2>2003</h2>
-              </tr></router-link>
+                </router-link>
             </table>
           </div>
         </div>
@@ -171,7 +165,7 @@ body {
   color: white;
   transform: rotateY(180deg);
   font-family: "Macondo", cursive;
-  font-size: 10px;
+  font-size: 12px;
   padding: 15px;
 }
 .link {
