@@ -83,6 +83,59 @@
           </div>
         </div>
       </div>
+
+    </div>
+    <div class="album-cover">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="../../public/images/Albumcover/a4.png"
+              alt="Avatar"
+              style="width: 200px; height: 200px"
+            />
+          </div>
+          <div class="flip-card-back">
+            <table class="card">
+              <router-link to="/a4" class="link">
+                <tr>
+                  <h2>Avril Lavigne</h2>
+                </tr>
+                <tr>
+                  <h2>Love Sux</h2>
+                </tr>
+                </router-link>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="../../public/images/Albumcover/a5.png"
+              alt="Avatar"
+              style="width: 200px; height: 200px"
+            />
+          </div>
+          <div class="flip-card-back">
+            <table>
+                <router-link to="/a5" class="link">
+              <tr>
+                <h2>&nbsp;&nbsp;Sonic Youth</h2>
+              </tr>
+              <tr>
+                <h2>&nbsp;diRty</h2>
+              </tr>
+              <br />
+                </router-link>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      
     </div>
   </div>
 </template>

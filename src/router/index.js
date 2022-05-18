@@ -25,6 +25,18 @@ const routes = [
 
     component: () => import("../views/a3.vue"),
   },
+  {
+    path: "/a4",
+    name: "a4",
+
+    component: () => import("../views/a4.vue"),
+  },
+  {
+    path: "/a5",
+    name: "a5",
+
+    component: () => import("../views/a5.vue"),
+  },
 ];
 
 const router = createRouter({
