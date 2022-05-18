@@ -153,7 +153,7 @@ body {
 .flip-card-front,
 .flip-card-back {
   position: absolute;
-  width: 85%;
+  width: 87%;
   height: 85%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
