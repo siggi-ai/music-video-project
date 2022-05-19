@@ -397,7 +397,11 @@ body {
 body {
   background-image: url("../../public/images/black-stripes-1.8.png");
   width: 99%;
-  height: 30%;
+  height: 100%;
+}
+.top-content {
+    margin: 0 auto;
+    width: 390px;
 }
 }
 </style>
