@@ -296,8 +296,8 @@ export default {
 
 <style>
 body {
-  background-image: url("../../public/images/black-stripes-1.2.png");
-  width: 100%;
+  background-image: url("../../public/images/black-stripes-1.5.png");
+  width: 99%;
   height: 100%;
 }
 .container {
