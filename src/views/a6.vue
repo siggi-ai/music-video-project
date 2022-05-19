@@ -1,0 +1,32 @@
+<template>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Koulen&family=Macondo&display=swap"
+    rel="stylesheet"
+  />
+  <div>
+    <p>
+      Graduation is the third studio album by American rapper and producer Kanye
+      West, released on September 11, 2007, through Def Jam Recordings and
+      Roc-A-Fella Records.
+    </p>
+  </div>
+  <iframe
+    width="550"
+    height="300"
+    src="https://www.youtube.com/embed/PsO6ZnUZI0g"
+  >
+  </iframe>
+</template>
+<script>
+export default {
+  name: "AlbumOne",
+};
+</script>
+<style>
+p {
+  font-size: 20px;
+  color: white;
+  font-family: "Macondo", cursive;
+  margin-top: -20px;
+}
+</style>

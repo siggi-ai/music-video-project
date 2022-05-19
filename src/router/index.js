@@ -37,6 +37,18 @@ const routes = [
 
     component: () => import("../views/a5.vue"),
   },
+  {
+    path: "/a6",
+    name: "a6",
+
+    component: () => import("../views/a6.vue"),
+  },
+  {
+    path: "/a7",
+    name: "a7",
+
+    component: () => import("../views/a7.vue"),
+  },
 ];
 
 const router = createRouter({

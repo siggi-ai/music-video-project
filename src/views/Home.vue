@@ -135,6 +135,61 @@
         </div>
       </div>
 
+<div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="../../public/images/Albumcover/a6.jpg"
+              alt="Avatar"
+              style="width: 200px; height: 200px"
+            />
+          </div>
+          <div class="flip-card-back">
+            <table>
+                <router-link to="/a6" class="link">
+              <tr>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kanye West</h2>
+              </tr>
+              <tr>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graduation</h2>
+              </tr>
+              <br />
+                </router-link>
+            </table>
+          </div>
+        </div>
+      </div>
+
+
+        </div>
+    <div class="album-cover">
+            <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="../../public/images/Albumcover/a7.jpg"
+              alt="Avatar"
+              style="width: 200px; height: 200px"
+            />
+          </div>
+          <div class="flip-card-back">
+            <table>
+                <router-link to="/a7" class="link">
+              <tr>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AC/DC</h2>
+              </tr>
+              <tr>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Razors Edge</h2>
+              </tr>
+              <br />
+                </router-link>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    
+
       
     </div>
   </div>
@@ -171,7 +226,7 @@ body {
   margin-left: 30px;
 }
 .album-cover {
-  margin-left: 0px;
+  margin-left: -13px;
   display: flex;
 }
 .cover {
@@ -202,7 +257,7 @@ body {
 .flip-card-front,
 .flip-card-back {
   position: absolute;
-  width: 87%;
+  width: 85%;
   height: 85%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
