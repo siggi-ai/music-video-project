@@ -381,10 +381,18 @@ body {
 @media only screen and (max-width: 800px) {
   .album-cover {
     flex-direction: column;
-    margin-left: 150px;
+    margin-left: 105px;
   }
   .container {
     margin-left: 50px;
   }
+  .text {
+    margin-top: -35px;
+    font-size: 39px;
+    margin-left: -1px;
+}
+.text2 {
+    font-size: 30px;
+}
 }
 </style>

@@ -31,4 +31,15 @@ p {
   padding: 22px;
   width: 483px;
 }
+@media only screen and (max-width: 800px) {
+  p {
+    width: 300px;
+    margin-left: 50px;
+  }
+    iframe {
+      width: 350px;
+      height: 200px;
+      margin-left: 50px;
+    }
+}
 </style>
