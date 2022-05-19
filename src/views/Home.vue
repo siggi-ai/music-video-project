@@ -394,5 +394,10 @@ body {
 .text2 {
     font-size: 30px;
 }
+body {
+  background-image: url("../../public/images/black-stripes-1.8.png");
+  width: 99%;
+  height: 500%;
+}
 }
 </style>

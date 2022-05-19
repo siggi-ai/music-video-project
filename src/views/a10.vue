@@ -38,12 +38,12 @@ p {
 @media only screen and (max-width: 800px) {
   p {
     width: 280px;
-    margin-left: 25px;
+    margin-left: 30px;
   }
     iframe {
       width: 300px;
       height: 200px;
-      margin-left: 35px;
+      margin-left: 40px;
     }
 }
 </style>
