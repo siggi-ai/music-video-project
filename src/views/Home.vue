@@ -397,7 +397,7 @@ body {
 body {
   background-image: url("../../public/images/black-stripes-1.8.png");
   width: 99%;
-  height: 300%;
+  height: 30%;
 }
 }
 </style>
