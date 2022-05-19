@@ -29,13 +29,14 @@ p {
 }
 @media only screen and (max-width: 800px) {
   p {
-    width: 300px;
-    margin-left: 50px;
+    width: 280px;
+    margin-left: 30px;
   }
     iframe {
-      width: 350px;
+      width: 300px;
       height: 200px;
-      margin-left: 50px;
+      margin-left: 40px;
     }
+    
 }
 </style>

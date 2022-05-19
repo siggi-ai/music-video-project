@@ -403,5 +403,9 @@ body {
     margin: 0 auto;
     width: 390px;
 }
+.top-box[data-v-7ba5bd90] {
+    margin: 0 auto;
+    width: 90%;
+}
 }
 </style>
