@@ -264,10 +264,10 @@
             <table>
                 <router-link to="/a10" class="link">
               <tr>
-                <h2>&nbsp;&nbsp;&nbsp;&nbsp;;Michael Jackson</h2>
+                <h2>&nbsp;&nbsp;&nbsp;Michael Jackson</h2>
               </tr>
               <tr>
-                <h2>&nbsp;&nbsp;&nbsp;Bad</h2>
+                <h2>&nbsp;&nbsp;Bad</h2>
               </tr>
               <br />
                 </router-link>
