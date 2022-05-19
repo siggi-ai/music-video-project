@@ -188,6 +188,56 @@
         </div>
       </div>
 
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="../../public/images/Albumcover/a8.jpg"
+              alt="Avatar"
+              style="width: 200px; height: 200px"
+            />
+          </div>
+          <div class="flip-card-back">
+            <table>
+                <router-link to="/a8" class="link">
+              <tr>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Metallica</h2>
+              </tr>
+              <tr>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Black Album</h2>
+              </tr>
+              <br />
+                </router-link>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="../../public/images/Albumcover/a9.jpg"
+              alt="Avatar"
+              style="width: 200px; height: 200px"
+            />
+          </div>
+          <div class="flip-card-back">
+            <table>
+                <router-link to="/a9" class="link">
+              <tr>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Missy Elliot</h2>
+              </tr>
+              <tr>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Supa Dupa Fly</h2>
+              </tr>
+              <br />
+                </router-link>
+            </table>
+          </div>
+        </div>
+      </div>
+
     
 
       

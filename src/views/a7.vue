@@ -5,7 +5,7 @@
   />
   <div>
     <p>
-      he Razors Edge is the twelfth studio album by Australian hard rock band
+      The Razors Edge is the twelfth studio album by Australian hard rock band
       AC/DC released on 21 September 1990. It was a major comeback for the band,
       featuring the hits "Thunderstruck" and "Are You Ready", which reached #5
       and #16 respectively on Billboard's Mainstream Rock Tracks Chart, and

@@ -49,6 +49,18 @@ const routes = [
 
     component: () => import("../views/a7.vue"),
   },
+  {
+    path: "/a8",
+    name: "a8",
+
+    component: () => import("../views/a8.vue"),
+  },
+  {
+    path: "/a9",
+    name: "a9",
+
+    component: () => import("../views/a9.vue"),
+  },
 ];
 
 const router = createRouter({
