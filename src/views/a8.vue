@@ -32,6 +32,14 @@ p {
   padding: 22px;
   width: 483px;
 }
+iframe {
+  border: 10px solid #ffc800;
+  border-radius: 4px;
+}
+iframe {
+  border: 10px solid #ffc800;
+  border-radius: 4px;
+}
 @media only screen and (max-width: 800px) {
   p {
     width: 280px;
