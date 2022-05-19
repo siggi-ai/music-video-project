@@ -37,7 +37,7 @@ export default {
 
 <style scoped>
 .menu-bar {
-      text-align: center;
+    text-align: center;
     margin-left: 0 auto;
     margin-top: 37px;
     padding: 16px;
@@ -68,20 +68,9 @@ body {
   width: 690px;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 800px) {
   .menu-bar {
-    text-align: center;
-    margin-left: 0 auto;
-    padding: 5px;
-    font-size: 1rem;
-    margin: 0 auto;
-    width: 500px;
-    color: #00ff89;
+    margin-left: 50px;
   }
-  .menu-bar {
-    padding: 8px;
-    font-size: 0.6rem;
-  }
-
 }
 </style>

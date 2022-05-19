@@ -13,7 +13,7 @@ export default {
  animation: rotate 20s linear infinite;
  height: 100px;
  width: 100px;
- margin-top: 50px;
+ margin-top: 20px;
 }
 @keyframes rotate {
   0% {

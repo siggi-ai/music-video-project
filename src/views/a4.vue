@@ -20,11 +20,14 @@ export default {
   name: "AlbumOne",
 };
 </script>
-<style>
+<style scoped>
 p {
   font-size: 20px;
   color: white;
   font-family: "Macondo", cursive;
   margin-top: -20px;
+  background-color: black;
+  padding: 22px;
+  width: 483px;
 }
 </style>

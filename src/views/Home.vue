@@ -7,280 +7,267 @@
     <div class="container">
       <SpinningCircle />
       <p class="text">Music-Website</p>
+      <p class="text2">Explore Sounds</p>
     </div>
 
-
-<div class="scroll-container">
-
-    <div class="album-cover">
-
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img
-              src="../../public/images/Albumcover/a1.jpg"
-              alt="Avatar"
-              style="width: 200px; height: 200px"
-            />
-          </div>
-          <div class="flip-card-back">
-            <table class="card">
-              <router-link to="/a1" class="link">
-                <tr>
-                  <h2>Edie Brickell & New Bohemians</h2>
-                </tr>
-                <tr>
-                  <h2>Shooting Rubberbands at the Stars</h2>
-                </tr>
+    <div class="scroll-container">
+      <div class="album-cover">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="../../public/images/Albumcover/a1.jpg"
+                alt="Avatar"
+                style="width: 200px; height: 200px"
+              />
+            </div>
+            <div class="flip-card-back">
+              <table class="card">
+                <router-link to="/a1" class="link">
+                  <tr>
+                    <h2>Edie Brickell & New Bohemians</h2>
+                  </tr>
+                  <tr>
+                    <h2>Shooting Rubberbands at the Stars</h2>
+                  </tr>
                 </router-link>
-            </table>
+              </table>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img
-              src="../../public/images/Albumcover/a2.jpg"
-              alt="Avatar"
-              style="width: 200px; height: 200px"
-            />
-          </div>
-          <div class="flip-card-back">
-            <table>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="../../public/images/Albumcover/a2.jpg"
+                alt="Avatar"
+                style="width: 200px; height: 200px"
+              />
+            </div>
+            <div class="flip-card-back">
+              <table>
                 <router-link to="/a2" class="link">
-              <tr>
-                <h2>&nbsp;&nbsp;The Rolling Stones</h2>
-              </tr>
-              <tr>
-                <h2>&nbsp;Some Girls</h2>
-              </tr>
-              <br />
+                  <tr>
+                    <h2>&nbsp;&nbsp;The Rolling Stones</h2>
+                  </tr>
+                  <tr>
+                    <h2>&nbsp;Some Girls</h2>
+                  </tr>
+                  <br />
                 </router-link>
-            </table>
+              </table>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img
-              src="../../public/images/Albumcover/a3.jpg"
-              alt="Avatar"
-              style="width: 200px; height: 200px"
-            />
-          </div>
-          <div class="flip-card-back">
-            <table>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="../../public/images/Albumcover/a3.jpg"
+                alt="Avatar"
+                style="width: 200px; height: 200px"
+              />
+            </div>
+            <div class="flip-card-back">
+              <table>
                 <router-link to="/a3" class="link">
-              <tr>
-                <h2>50 Cent</h2>
-              </tr>
-              <tr>
-                <h2>Get Rich or Die Tryin'</h2>
-              </tr>
-              <br />
+                  <tr>
+                    <h2>50 Cent</h2>
+                  </tr>
+                  <tr>
+                    <h2>Get Rich or Die Tryin'</h2>
+                  </tr>
+                  <br />
                 </router-link>
-            </table>
+              </table>
+            </div>
           </div>
         </div>
       </div>
 
-    </div>
-
-
-    <div class="album-cover">
-
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img
-              src="../../public/images/Albumcover/a4.png"
-              alt="Avatar"
-              style="width: 200px; height: 200px"
-            />
-          </div>
-          <div class="flip-card-back">
-            <table class="card">
-              <router-link to="/a4" class="link">
-                <tr>
-                  <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Avril Lavigne</h2>
-                </tr>
-                <tr>
-                  <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Love Sux</h2>
-                </tr>
+      <div class="album-cover">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="../../public/images/Albumcover/a4.png"
+                alt="Avatar"
+                style="width: 200px; height: 200px"
+              />
+            </div>
+            <div class="flip-card-back">
+              <table class="card">
+                <router-link to="/a4" class="link">
+                  <tr>
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Avril Lavigne</h2>
+                  </tr>
+                  <tr>
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Love Sux</h2>
+                  </tr>
                 </router-link>
-            </table>
+              </table>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img
-              src="../../public/images/Albumcover/a5.png"
-              alt="Avatar"
-              style="width: 200px; height: 200px"
-            />
-          </div>
-          <div class="flip-card-back">
-            <table>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="../../public/images/Albumcover/a5.png"
+                alt="Avatar"
+                style="width: 200px; height: 200px"
+              />
+            </div>
+            <div class="flip-card-back">
+              <table>
                 <router-link to="/a5" class="link">
-              <tr>
-                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sonic Youth</h2>
-              </tr>
-              <tr>
-                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;diRty</h2>
-              </tr>
-              <br />
+                  <tr>
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sonic Youth</h2>
+                  </tr>
+                  <tr>
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;diRty</h2>
+                  </tr>
+                  <br />
                 </router-link>
-            </table>
+              </table>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img
-              src="../../public/images/Albumcover/a6.jpg"
-              alt="Avatar"
-              style="width: 200px; height: 200px"
-            />
-          </div>
-          <div class="flip-card-back">
-            <table>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="../../public/images/Albumcover/a6.jpg"
+                alt="Avatar"
+                style="width: 200px; height: 200px"
+              />
+            </div>
+            <div class="flip-card-back">
+              <table>
                 <router-link to="/a6" class="link">
-              <tr>
-                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kanye West</h2>
-              </tr>
-              <tr>
-                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graduation</h2>
-              </tr>
-              <br />
+                  <tr>
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kanye West</h2>
+                  </tr>
+                  <tr>
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graduation</h2>
+                  </tr>
+                  <br />
                 </router-link>
-            </table>
+              </table>
+            </div>
           </div>
         </div>
       </div>
 
-    </div>
-
-
-    <div class="album-cover">
-
-            <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img
-              src="../../public/images/Albumcover/a7.jpg"
-              alt="Avatar"
-              style="width: 200px; height: 200px"
-            />
-          </div>
-          <div class="flip-card-back">
-            <table>
+      <div class="album-cover">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="../../public/images/Albumcover/a7.jpg"
+                alt="Avatar"
+                style="width: 200px; height: 200px"
+              />
+            </div>
+            <div class="flip-card-back">
+              <table>
                 <router-link to="/a7" class="link">
-              <tr>
-                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AC/DC</h2>
-              </tr>
-              <tr>
-                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Razors Edge</h2>
-              </tr>
-              <br />
+                  <tr>
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AC/DC</h2>
+                  </tr>
+                  <tr>
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Razors Edge</h2>
+                  </tr>
+                  <br />
                 </router-link>
-            </table>
+              </table>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img
-              src="../../public/images/Albumcover/a8.jpg"
-              alt="Avatar"
-              style="width: 200px; height: 200px"
-            />
-          </div>
-          <div class="flip-card-back">
-            <table>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="../../public/images/Albumcover/a8.jpg"
+                alt="Avatar"
+                style="width: 200px; height: 200px"
+              />
+            </div>
+            <div class="flip-card-back">
+              <table>
                 <router-link to="/a8" class="link">
-              <tr>
-                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Metallica</h2>
-              </tr>
-              <tr>
-                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Black Album</h2>
-              </tr>
-              <br />
+                  <tr>
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Metallica</h2>
+                  </tr>
+                  <tr>
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Black Album</h2>
+                  </tr>
+                  <br />
                 </router-link>
-            </table>
+              </table>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img
-              src="../../public/images/Albumcover/a9.jpg"
-              alt="Avatar"
-              style="width: 200px; height: 200px"
-            />
-          </div>
-          <div class="flip-card-back">
-            <table>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="../../public/images/Albumcover/a9.jpg"
+                alt="Avatar"
+                style="width: 200px; height: 200px"
+              />
+            </div>
+            <div class="flip-card-back">
+              <table>
                 <router-link to="/a9" class="link">
-              <tr>
-                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Missy Elliot</h2>
-              </tr>
-              <tr>
-                <h2>&nbsp;&nbsp;&nbsp;&nbsp;Supa Dupa Fly</h2>
-              </tr>
-              <br />
+                  <tr>
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Missy Elliot</h2>
+                  </tr>
+                  <tr>
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;Supa Dupa Fly</h2>
+                  </tr>
+                  <br />
                 </router-link>
-            </table>
+              </table>
+            </div>
           </div>
         </div>
-
       </div>
-    </div>
 
-      
-    <div class="album-cover">
-           <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img
-              src="../../public/images/Albumcover/a10.png"
-              alt="Avatar"
-              style="width: 200px; height: 200px"
-            />
-          </div>
-          <div class="flip-card-back">
-            <table>
+      <div class="album-cover">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="../../public/images/Albumcover/a10.png"
+                alt="Avatar"
+                style="width: 200px; height: 200px"
+              />
+            </div>
+            <div class="flip-card-back">
+              <table>
                 <router-link to="/a10" class="link">
-              <tr>
-                <h2>&nbsp;&nbsp;&nbsp;Michael Jackson</h2>
-              </tr>
-              <tr>
-                <h2>&nbsp;&nbsp;Bad</h2>
-              </tr>
-              <br />
+                  <tr>
+                    <h2>&nbsp;&nbsp;&nbsp;Michael Jackson</h2>
+                  </tr>
+                  <tr>
+                    <h2>&nbsp;&nbsp;Bad</h2>
+                  </tr>
+                  <br />
                 </router-link>
-            </table>
+              </table>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
   </div>
-
-  </div>
-
 </template>
 
 <script>
@@ -296,7 +283,7 @@ export default {
 
 <style>
 body {
-  background-image: url("../../public/images/black-stripes-1.5.png");
+  background-image: url("../../public/images/black-stripes-1.8.png");
   width: 99%;
   height: 100%;
 }
@@ -318,12 +305,22 @@ body {
   border-radius: 10px;
 }
 .text {
-  color: #29d0a7;
-  font-family: "Koulen", cursive;
-  font-size: 30px;
-  width: 300px;
-  margin-top: 70px;
-  margin-left: 30px;
+    color: #00ffc0;
+    font-family: "Koulen", cursive;
+    font-size: 56px;
+    width: 100%;
+    margin-top: -43px;
+    margin-left: -8px;
+    border-radius: 12px;
+}
+.text2 {
+    color: #94ff00;
+    font-family: "Koulen", cursive;
+    font-size: 40px;
+    width: 100%;
+    margin-top: 18px;
+    margin-left: -385px;
+    border-radius: -8px;
 }
 .album-cover {
   margin-left: -13px;
@@ -377,7 +374,17 @@ body {
   padding: 15px;
 }
 .link {
-    text-decoration: none;
-    margin-left: 0 auto;
+  text-decoration: none;
+  margin-left: 0 auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .album-cover {
+    flex-direction: column;
+    margin-left: 150px;
+  }
+  .container {
+    margin-left: 50px;
+  }
 }
 </style>
