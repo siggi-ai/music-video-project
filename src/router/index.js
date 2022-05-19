@@ -61,6 +61,12 @@ const routes = [
 
     component: () => import("../views/a9.vue"),
   },
+  {
+    path: "/a10",
+    name: "a10",
+
+    component: () => import("../views/a10.vue"),
+  },
 ];
 
 const router = createRouter({

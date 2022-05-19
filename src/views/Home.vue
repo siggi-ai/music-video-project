@@ -9,7 +9,11 @@
       <p class="text">Music-Website</p>
     </div>
 
+
+<div class="scroll-container">
+
     <div class="album-cover">
+
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
@@ -85,7 +89,10 @@
       </div>
 
     </div>
+
+
     <div class="album-cover">
+
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
@@ -135,7 +142,7 @@
         </div>
       </div>
 
-<div class="flip-card">
+      <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
             <img
@@ -160,9 +167,11 @@
         </div>
       </div>
 
+    </div>
 
-        </div>
+
     <div class="album-cover">
+
             <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
@@ -236,13 +245,42 @@
             </table>
           </div>
         </div>
-      </div>
 
-    
+      </div>
+    </div>
 
       
+    <div class="album-cover">
+           <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="../../public/images/Albumcover/a10.png"
+              alt="Avatar"
+              style="width: 200px; height: 200px"
+            />
+          </div>
+          <div class="flip-card-back">
+            <table>
+                <router-link to="/a10" class="link">
+              <tr>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Michael Jackson</h2>
+              </tr>
+              <tr>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bad</h2>
+              </tr>
+              <br />
+                </router-link>
+            </table>
+          </div>
+        </div>
+      </div>
     </div>
+
   </div>
+
+  </div>
+
 </template>
 
 <script>
@@ -258,7 +296,7 @@ export default {
 
 <style>
 body {
-  background-image: url("../../public/images/sp1.jpg");
+  background-image: url("../../public/images/black-stripes-1.2.png");
   width: 100%;
   height: 100%;
 }
@@ -266,6 +304,18 @@ body {
   display: flex;
   margin-bottom: 20px;
   margin-top: -65px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(210 64 255);
+  border-radius: 10px;
 }
 .text {
   color: #29d0a7;
