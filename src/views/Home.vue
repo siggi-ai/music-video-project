@@ -40,19 +40,19 @@
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img
-                src="../../public/images/Albumcover/a2.jpg"
+                src="../../public/images/Albumcover/a12.png"
                 alt="Avatar"
                 style="width: 200px; height: 200px"
               />
             </div>
             <div class="flip-card-back">
               <table>
-                <router-link to="/a2" class="link">
+                <router-link to="/a12" class="link">
                   <tr>
-                    <h2>&nbsp;&nbsp;The Rolling Stones</h2>
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Coldplay</h2>
                   </tr>
                   <tr>
-                    <h2>&nbsp;Some Girls</h2>
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X&Y</h2>
                   </tr>
                   <br />
                 </router-link>
@@ -290,6 +290,32 @@
             </div>
           </div>
         </div>
+
+<div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="../../public/images/Albumcover/a2.jpg"
+                alt="Avatar"
+                style="width: 200px; height: 200px"
+              />
+            </div>
+            <div class="flip-card-back">
+              <table>
+                <router-link to="/a2" class="link">
+                  <tr>
+                    <h2>&nbsp;&nbsp;The Rolling Stones</h2>
+                  </tr>
+                  <tr>
+                    <h2>&nbsp;Some Girls</h2>
+                  </tr>
+                  <br />
+                </router-link>
+              </table>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
