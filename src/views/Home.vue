@@ -150,10 +150,10 @@
               <table>
                 <router-link to="/a6" class="link">
                   <tr>
-                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kanye West</h2>
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fugees</h2>
                   </tr>
                   <tr>
-                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graduation</h2>
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Score</h2>
                   </tr>
                   <br />
                 </router-link>
@@ -202,10 +202,10 @@
               <table>
                 <router-link to="/a8" class="link">
                   <tr>
-                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Metallica</h2>
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Metallica</h2>
                   </tr>
                   <tr>
-                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Metallica</h2>
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Metallica</h2>
                   </tr>
                   <br />
                 </router-link>

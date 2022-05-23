@@ -5,15 +5,17 @@
   />
   <div>
     <p>
-      Graduation is the third studio album by American rapper and producer Kanye
-      West, released on September 11, 2007, through Def Jam Recordings and
-      Roc-A-Fella Records.
+      The Score is the second and final studio album by the hip hop trio Fugees.
+      The Score was released worldwide on February 13, 1996, on Columbia
+      Records. The album features a wide range of samples and instrumentation,
+      with many aspects of alternative hip-hop that would come to dominate the
+      hip-hop music scene in the mid-late 1990s.
     </p>
   </div>
   <iframe
     width="550"
     height="300"
-    src="https://www.youtube.com/embed/PsO6ZnUZI0g"
+    src="https://www.youtube.com/embed/MPlb9HoOCxs"
   >
   </iframe>
 </template>
@@ -41,11 +43,10 @@ iframe {
     width: 280px;
     margin-left: 30px;
   }
-    iframe {
-      width: 300px;
-      height: 200px;
-      margin-left: 40px;
-    }
-    
+  iframe {
+    width: 300px;
+    height: 200px;
+    margin-left: 40px;
+  }
 }
 </style>
