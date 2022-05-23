@@ -74,10 +74,10 @@
               <table>
                 <router-link to="/a3" class="link">
                   <tr>
-                    <h2>50 Cent</h2>
+                    <h2>Wu-Tang Clan</h2>
                   </tr>
                   <tr>
-                    <h2>Get Rich or Die Tryin'</h2>
+                    <h2>Enter the Wu-Tang (36 Chambers)</h2>
                   </tr>
                   <br />
                 </router-link>

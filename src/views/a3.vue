@@ -5,15 +5,18 @@
   />
   <div>
     <p>
-      Get Rich or Die Tryin' is the debut studio album by American rapper 50
-      Cent. In 2020, Rolling Stone ranked the album number 280 on their updated
-      500 Greatest Albums of All Time list.
+      Enter the Wu-Tang (36 Chambers) is the debut studio album by American hip
+      hop group Wu-Tang Clan, released on November 9, 1993, by Loud Records.
+      Recording sessions took place during late 1992 to early 1993 at Firehouse
+      Studio in New York City, and the album was produced by the group's de
+      facto leader RZA. Its title originates from the martial arts films Enter
+      the Dragon (1973) and The 36th Chamber of Shaolin (1978).
     </p>
   </div>
   <iframe
     width="550"
     height="300"
-    src="https://www.youtube.com/embed/5D3crqpClPY"
+    src="https://www.youtube.com/embed/PBwAxmrE194"
   >
   </iframe>
 </template>
@@ -41,11 +44,10 @@ iframe {
     width: 280px;
     margin-left: 30px;
   }
-    iframe {
-      width: 300px;
-      height: 200px;
-      margin-left: 40px;
-    }
-    
+  iframe {
+    width: 300px;
+    height: 200px;
+    margin-left: 40px;
+  }
 }
 </style>
