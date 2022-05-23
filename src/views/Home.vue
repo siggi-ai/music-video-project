@@ -397,7 +397,7 @@ body {
   font-family: "Macondo", cursive;
   font-size: 12px;
   padding: 15px;
-  height: 75%;
+  height: 76%;
   width: 76%;
   border: 10px solid #6d6dff;
 }
