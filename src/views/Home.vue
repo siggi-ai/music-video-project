@@ -398,7 +398,7 @@ body {
   font-size: 12px;
   padding: 15px;
   height: 75%;
-  width: 75%;
+  width: 76%;
   border: 10px solid #6d6dff;
 }
 .link {
