@@ -266,7 +266,7 @@
           </div>
         </div>
 
-<div class="flip-card">
+        <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img
@@ -290,7 +290,6 @@
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </div>
@@ -331,22 +330,22 @@ body {
   border-radius: 10px;
 }
 .text {
-    color: #00ffc0;
-    font-family: "Koulen", cursive;
-    font-size: 56px;
-    width: 100%;
-    margin-top: -43px;
-    margin-left: -8px;
-    border-radius: 12px;
+  color: #00ffc0;
+  font-family: "Koulen", cursive;
+  font-size: 56px;
+  width: 100%;
+  margin-top: -43px;
+  margin-left: -8px;
+  border-radius: 12px;
 }
 .text2 {
-    color: #94ff00;
-    font-family: "Koulen", cursive;
-    font-size: 40px;
-    width: 100%;
-    margin-top: 18px;
-    margin-left: -385px;
-    border-radius: -8px;
+  color: #94ff00;
+  font-family: "Koulen", cursive;
+  font-size: 40px;
+  width: 100%;
+  margin-top: 18px;
+  margin-left: -385px;
+  border-radius: -8px;
 }
 .album-cover {
   margin-left: -13px;
@@ -398,6 +397,9 @@ body {
   font-family: "Macondo", cursive;
   font-size: 12px;
   padding: 15px;
+  height: 75%;
+  width: 75%;
+  border: 10px solid #6d6dff;
 }
 .link {
   text-decoration: none;
@@ -416,22 +418,22 @@ body {
     margin-top: -35px;
     font-size: 39px;
     margin-left: -1px;
-}
-.text2 {
+  }
+  .text2 {
     font-size: 30px;
-}
-body {
-  background-image: url("../../public/images/black-stripes-1.8.png");
-  width: 99%;
-  height: 100%;
-}
-.top-content {
+  }
+  body {
+    background-image: url("../../public/images/black-stripes-1.8.png");
+    width: 99%;
+    height: 100%;
+  }
+  .top-content {
     margin: 0 auto;
     width: 390px;
-}
-.top-box[data-v-7ba5bd90] {
+  }
+  .top-box[data-v-7ba5bd90] {
     margin: 0 auto;
     width: 90%;
-}
+  }
 }
 </style>
