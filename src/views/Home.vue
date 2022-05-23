@@ -101,10 +101,10 @@
               <table class="card">
                 <router-link to="/a4" class="link">
                   <tr>
-                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Avril Lavigne</h2>
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;Avril Lavigne</h2>
                   </tr>
                   <tr>
-                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Love Sux</h2>
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;Love Sux</h2>
                   </tr>
                 </router-link>
               </table>
