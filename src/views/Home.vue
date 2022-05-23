@@ -205,7 +205,7 @@
                     <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Metallica</h2>
                   </tr>
                   <tr>
-                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Black Album</h2>
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Metallica</h2>
                   </tr>
                   <br />
                 </router-link>
@@ -317,6 +317,36 @@
         </div>
 
       </div>
+
+
+      <div class="album-cover">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="../../public/images/Albumcover/a13.jpg"
+                alt="Avatar"
+                style="width: 200px; height: 200px"
+              />
+            </div>
+            <div class="flip-card-back">
+              <table>
+                <router-link to="/a13" class="link">
+                  <tr>
+                    <h2>&nbsp;&nbsp;&nbsp;Beasty Boys</h2>
+                  </tr>
+                  <tr>
+                    <h2>&nbsp;&nbsp;Ill Communication</h2>
+                  </tr>
+                  <br />
+                </router-link>
+              </table>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
     </div>
   </div>
 </template>
