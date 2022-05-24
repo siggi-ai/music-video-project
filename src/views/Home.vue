@@ -8,6 +8,7 @@
       <SpinningCircle />
       <p class="text">Music-Website</p>
       <p class="text2">Explore Sounds</p>
+      <p class="text3">Experience Emotion</p>
     </div>
 
     <div class="scroll-container">
@@ -291,7 +292,7 @@
           </div>
         </div>
 
-<div class="flip-card">
+        <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img
@@ -315,9 +316,7 @@
             </div>
           </div>
         </div>
-
       </div>
-
 
       <div class="album-cover">
         <div class="flip-card">
@@ -344,9 +343,7 @@
             </div>
           </div>
         </div>
-
       </div>
-
     </div>
   </div>
 </template>
@@ -402,6 +399,15 @@ body {
   margin-top: 18px;
   margin-left: -385px;
   border-radius: -8px;
+}
+.text3 {
+    color: #00caff;
+    font-family: "Koulen", cursive;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 62px;
+    margin-left: -495px;
+    border-radius: -8px;
 }
 .album-cover {
   margin-left: -13px;
