@@ -345,15 +345,13 @@
           </div>
         </div>
 
-      <div class="album-cover">
-        <div class="flip-card">
+      <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img
                 src="../../public/images/Albumcover/a14.jpg"
                 alt="Avatar"
                 style="width: 200px; height: 200px"
-                class="link2"
               />
             </div>
             <div class="flip-card-back">
@@ -371,7 +369,6 @@
             </div>
           </div>
         </div>
-      </div>
 
       </div>
 
