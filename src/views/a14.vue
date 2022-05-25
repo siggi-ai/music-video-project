@@ -5,12 +5,13 @@
   />
   <div>
     <p>
-      Ill Communication is the fourth studio album by American hip-hop group
-      Beastie Boys, released by Grand Royal Records on May 31, 1994. Co-produced
-      by Beastie Boys and Mario Caldato, Jr., it is among the band's most varied
-      releases, drawing from hip hop, punk rock, jazz, and funk, and continues
-      their trend away from sampling and towards live instruments, which began
-      with their previous release.
+      Early albums consist of a cappella music. The band's first name was "Die
+      Herzbuben", but it was changed to "Die Prinzen" in 1991 to avoid confusion
+      with the Volkstümliche Schlager duo Wildecker Herzbuben. The lyrics of
+      their songs are often humorous, tongue-in-cheek critiques of German
+      government or society. In reference to the group's
+      name and the Brothers Grimm fairy-tale "The Frog Prince", the group's logo
+      is a green frog wearing a crown. 
     </p>
   </div>
   <iframe
