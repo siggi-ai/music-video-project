@@ -17,7 +17,7 @@
   <iframe
     width="520"
     height="300"
-    src="https://www.youtube.com/embed/JhqyZeUlE8U"
+    src="https://www.youtube.com/embed/yMR45cZbvDw"
   >
   </iframe>
 </template>
