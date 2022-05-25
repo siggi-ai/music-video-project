@@ -319,6 +319,7 @@
       </div>
 
       <div class="album-cover">
+
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
@@ -343,7 +344,6 @@
             </div>
           </div>
         </div>
-      </div>
 
       <div class="album-cover">
         <div class="flip-card">
@@ -353,6 +353,7 @@
                 src="../../public/images/Albumcover/a14.jpg"
                 alt="Avatar"
                 style="width: 200px; height: 200px"
+                class="link2"
               />
             </div>
             <div class="flip-card-back">
@@ -372,6 +373,7 @@
         </div>
       </div>
 
+      </div>
 
     </div>
   </div>
@@ -389,6 +391,9 @@ export default {
 </script>
 
 <style>
+img {
+  margin: 0 auto;
+}
 body {
   background-image: url("../../public/images/black-stripes-1.8.png");
   width: 99%;
@@ -495,6 +500,10 @@ body {
 .link {
   text-decoration: none;
   margin-left: 0 auto;
+}
+.link2 {
+  text-decoration: none;
+  margin-left: 13px;
 }
 
 @media only screen and (max-width: 800px) {
