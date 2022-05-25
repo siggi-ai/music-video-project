@@ -8,7 +8,7 @@
       <SpinningCircle />
       <p class="text">Music-Website</p>
       <p class="text2">Explore Sounds</p>
-      <p class="text3">Experience Emotion</p>
+      <p class="text3">Experience Emotions</p>
     </div>
 
     <div class="scroll-container">
