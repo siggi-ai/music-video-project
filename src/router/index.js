@@ -85,6 +85,12 @@ const routes = [
 
     component: () => import("../views/a13.vue"),
   },
+  {
+    path: "/a14",
+    name: "a14",
+
+    component: () => import("../views/a14.vue"),
+  },
 ];
 
 const router = createRouter({
