@@ -91,6 +91,12 @@ const routes = [
 
     component: () => import("../views/a14.vue"),
   },
+  {
+    path: "/a15",
+    name: "a15",
+
+    component: () => import("../views/a15.vue"),
+  },
 ];
 
 const router = createRouter({
