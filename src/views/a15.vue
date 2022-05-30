@@ -5,19 +5,18 @@
   />
   <div>
     <p>
-      Early albums consist of a cappella music. The band's first name was "Die
-      Herzbuben", but it was changed to "Die Prinzen" in 1991 to avoid confusion
-      with the Volkstümliche Schlager duo Wildecker Herzbuben. The lyrics of
-      their songs are often humorous, tongue-in-cheek critiques of German
-      government or society. In reference to the group's
-      name and the Brothers Grimm fairy-tale "The Frog Prince", the group's logo
-      is a green frog wearing a crown. 
+      Red Velvet (Korean: 레드벨벳; RR: Redeubelbet) is a South Korean girl
+      group. Musically, the work of Red Velvet reflects their own group name:
+      their predominantly-pop "red" side experiments occasionally with
+      electronic, funk and hip hop, while their "velvet" side focuses on
+      '90s-influenced R&B with elements of ballad and jazz. Their genre
+      versatility and hooks have garnered critical praise.
     </p>
   </div>
   <iframe
     width="520"
     height="300"
-    src="https://www.youtube.com/embed/R9At2ICm4LQ&list=OLAK5uy_kMj5895MrZHFnuxJmDMyPOET_wL1yexRo&index=1"
+    src="https://www.youtube.com/embed/R9At2ICm4LQ"
   >
   </iframe>
 </template>
